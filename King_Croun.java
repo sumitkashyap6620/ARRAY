@@ -18,17 +18,13 @@ public class King_Croun
          int i = 0 ;
          int j = arr.length -1;
          for(i = 0 ; i <= j ; i++)
-     {
-           int p = j ;
-            for(int k = 0; k < i ; k++)
-        {
-              if (k<=p)
-     {
-                arr[k] = '*';
-                arr[p] = '*';
-                  p-- ;
-     }
-            
+   {
+     int p = j ;
+     for(int k = 0; k < i ; k++)
+     if (k<=p){
+       arr[k] = '*';
+       arr[p] = '*';
+        p-- ;
      }
         displayarray(arr);
         System.out.println();
