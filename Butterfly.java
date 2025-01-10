@@ -13,9 +13,9 @@ public class Butterfly {
          char[] arr = new char[sc.nextInt()];
          for(int i = 0 ; i < arr.length  ; i++)arr[i] = ' ' ;
          int i = 0 ;
-         int j = arr.length -1;
-         for(i = 0 ; i <= j+1 ; i++){
-           int p = j ;
+         int j = arr.length ;
+         for(i = 0 ; i <= j ; i++){
+           int p = j-1 ;
             for(int k = 0; k < i ; k++){
               if (k<p){
                 arr[k] = '*';
