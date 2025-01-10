@@ -6,10 +6,9 @@ public class Prefix_sum {
              System.out.print( +arr[i]+" ");
      }
      public static void prefixsum(int[] arr ){
-      for (int i = 1 ; i < arr.length ; i++){
+      for (int i = 1 ; i < arr.length ; i++)
         arr[i] = arr[i-1] + arr[i];
-      }
-      displayarray(arr);
+       displayarray(arr);
      }
      public static void main(String[] args) {
         System.out.print(" GIVE THE SIZE OF ARRAY TO REVERSE : ");
