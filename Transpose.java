@@ -17,7 +17,7 @@ public class Transpose {
     }
     public static int[][] transpose2(int[][] arr ){
         for(int i = 0 ; i < arr.length ; i++)
-        for(int j = 0 ; j < i ; j++){
+        for(int j = i+1 ; j < arr[0].length ; j++){
         arr[i][j] = arr[i][j] + arr[j][i] ;
         arr[j][i] = arr[i][j] - arr[j][i] ;
         arr[i][j] = arr[i][j] - arr[j][i] ;
@@ -38,5 +38,6 @@ public class Transpose {
     Display_matrix(transpose(arr));
     System.out.println("Transpose Of Given Matrix Without Using Extra Space :-"); 
     Display_matrix(transpose2(arr));
+    sc.close();
 }
 }
