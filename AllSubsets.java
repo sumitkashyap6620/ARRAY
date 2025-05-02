@@ -24,5 +24,6 @@ public class AllSubsets{
       for(int i = 0 ; i < arr.length ; i++)
        arr[i] = sc.nextInt();
       PrintSubsets(arr);
+      sc.close();
     }
 }
