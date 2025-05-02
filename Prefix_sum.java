@@ -1,4 +1,4 @@
-package ARRAY ;
+
 import java.util.Scanner ;
 public class Prefix_sum {
     public static void displayarray(int [] arr  ){

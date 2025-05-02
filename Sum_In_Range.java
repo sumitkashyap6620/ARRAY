@@ -1,4 +1,4 @@
-package ARRAY;
+
 import java.util.Scanner ;
 public class Sum_In_Range {
     public static void displayarray(int [] arr ){

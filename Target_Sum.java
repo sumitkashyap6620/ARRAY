@@ -1,4 +1,4 @@
-package ARRAY;
+
 import java.util.Scanner ;
 public class Target_Sum {
     public static void targetsum (int[] arr , int t){

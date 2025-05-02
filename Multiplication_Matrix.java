@@ -1,5 +1,3 @@
-package ARRAY;
-
 import java.util.Scanner;
 
 public class Multiplication_Matrix {

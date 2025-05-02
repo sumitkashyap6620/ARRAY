@@ -1,4 +1,4 @@
-package ARRAY;
+
 import java.util.Scanner;
 public class BinaryToDecimal {
     public static void IntoDecimal(int[] arr){

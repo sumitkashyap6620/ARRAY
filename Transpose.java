@@ -1,4 +1,4 @@
-package ARRAY;
+
 import java.util.Scanner ;
 public class Transpose {
     public static void Display_matrix(int[][] arr){

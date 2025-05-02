@@ -1,4 +1,4 @@
-package ARRAY ;
+
 import java.util.Scanner;
 public class Remove_Element {
     public static void removeElement(int[] nums, int val) {

@@ -1,4 +1,4 @@
-package ARRAY;
+
 import java.util.Scanner;
 public class Rotation_90_Degree {
     public static void Display_matrix(int[][] arr){

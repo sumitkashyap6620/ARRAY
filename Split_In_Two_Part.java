@@ -1,4 +1,4 @@
-package ARRAY;
+
 import java.util.Scanner;
 public class Split_In_Two_Part {
   public static void displayarray(int [] arr ){
