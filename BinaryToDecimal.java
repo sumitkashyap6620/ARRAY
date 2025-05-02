@@ -1,9 +1,9 @@
 
-import java.util.Scanner;
+import java.util.Scanner ;
 public class BinaryToDecimal {
     public static void IntoDecimal(int[] arr){
         int a = 0 ;
-        int d = 0 ; 
+        int d = 0 ;
         for(int i = 0 ; i < arr.length ; i++){
            d = d + (int)(Math.pow(2,a)*arr[i]);
           a++ ;
