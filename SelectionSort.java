@@ -13,7 +13,8 @@ public class SelectionSort {
                 arr[i] = arr[j] - arr[i];
                 arr[j] -= arr[i];
             }
-        }
+          
+        }}
     }
     
     public static void main(String args[]){
