@@ -20,8 +20,8 @@ public class k_timerotate {
       for (int i = 0 ;  i < arr.length ; i++ )
       arr[i] = sc.nextInt();
       System.out.print("Give value how many times you want to rotate your array :- ");
-      int k = sc.nextInt();
-      reversearray(arr ,0 , arr.length - k+1 );
+      int k = sc.nextInt()%arr.length;
+      reversearray(arr ,0 , arr.length - (k+1) );
       reversearray(arr , arr.length-k  , arr.length-1 );
       reversearray(arr , 0  , arr.length-1 );
       displayarray(arr);
