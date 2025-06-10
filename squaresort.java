@@ -1,10 +1,8 @@
 import java.util.Scanner;
-import java.util.*;
 public class squaresort{
   public static void displayarray(int arr[]){
-    for (int i = 0 ; i<arr.length ; i++)
-    System.out.print(arr[i]+" ");
-  }
+    for (int i = 0 ; i<arr.length ; i++)System.out.print(arr[i]+" ");
+    }
   public static void squatrsorts(int arr[]){
     int right = arr.length-1;
     int left = 0 ;
@@ -36,5 +34,5 @@ public class squaresort{
       arr[i] = sc.nextInt();
        squatrsorts(arr);
   }
-
 }
+
