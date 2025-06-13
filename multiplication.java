@@ -47,5 +47,6 @@ public static void main(String[] args) {
     displaymatrix(arr2);
     System.out.println("multiplication of arrays :-");
            mul(arr1, r1, c1, arr2, r2, c2);
+           sc.close();
 }
 }

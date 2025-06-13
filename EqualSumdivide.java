@@ -20,7 +20,7 @@ public class EqualSumdivide{
         for(int i = 1 ; i < arr.length ; i++)
         arr[i]=sc.nextInt();
         System.out.print("Is equal sum partetion is possible = "+equalsum(arr));
-       
+       sc.close();
         
     }
 }

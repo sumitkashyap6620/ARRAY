@@ -33,6 +33,6 @@ public class sumLtoR {
         System.out.print("to find other sum in range press 1 : ");
          x = sc.nextInt();
         }while(x==1);
-        
+        sc.close();
     }
 }
